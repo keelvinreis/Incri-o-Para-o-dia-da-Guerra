@@ -31,7 +31,7 @@ width: 100vw ;
   padding: 20px;
   box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
   position: relative;
-  background: rgba(255, 255, 255, 0.8);
+  
   text-align: center;
 }
 
@@ -131,13 +131,14 @@ width: 100vw ;
   color: green;
 }
 
-@media screen (min-width: 1920px) and (max-width: 3840px)   {
+@media (min-width: 1920px) and (max-width: 3840px){
   .formulario {
     width: 800px;
     height: 800px;
     border-radius: 45px 0px  45px 0px;
     background: rgba(255, 255, 255, 0.7);
   }
+
   .image-fundo {
     display: none;
     width: 800px;
@@ -179,7 +180,8 @@ width: 100vw ;
     padding: 0;
   }
 }
-@media screen and (max-width: 1920px)   {
+
+@media (min-width: 1200px) and (max-width: 1920px){
   .formulario {
     width: 700px;
     border-radius: 55px 0px  55px 0px;
@@ -221,7 +223,7 @@ width: 100vw ;
   }
 }
 
-@media screen and (max-width: 1200px)   {
+@media (min-width: 900px) and (max-width: 1200px){
   .formulario {
     width: 600px;
     border-radius: 45px 0px  45px 0px;
@@ -263,7 +265,7 @@ width: 100vw ;
   }
 }
 
-@media screen and (max-width: 900px)   {
+@media (min-width: 600px) and (max-width: 900px){
   .formulario {
     width: 500px;
     border-radius: 45px 0px  45px 0px;
@@ -305,7 +307,7 @@ width: 100vw ;
   }
 }
 
-@media screen and (max-width: 600px)   {
+@media (min-width: 460px) and (max-width: 600px){
    .formulario {
     width: 430px;
     border-radius: 35px 0px  35px 0px;
@@ -328,7 +330,7 @@ width: 100vw ;
   }
 }
 
-@media screen and (max-width: 460px) {
+@media (min-width:0px) and (max-width: 460px){
   .formulario {
     width: 350px;
     border-radius: 35px 0px  35px 0px;
